@@ -116,7 +116,7 @@ let g:spelunker_highlight_type = 1
 let g:spelunker_disable_uri_checking = 1
 let g:spelunker_disable_email_checking = 1
 let g:spelunker_disable_acronym_checking = 1
-highlight SpelunkerSpellBad cterm=underline ctermfg=grey
+highlight SpelunkerSpellBad cterm=underline ctermfg=yellow
 highlight SpelunkerComplexOrCompoundWord cterm=underline ctermfg=NONE gui=underline guifg=NONE
 
 set nowrap
